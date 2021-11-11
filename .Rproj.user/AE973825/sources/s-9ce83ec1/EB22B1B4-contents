@@ -1,0 +1,105 @@
+---
+title: "Project Two"
+output: html_document
+---
+## Due Nov. 12 at Midnight.
+## Complete this activity in your R_package_lastname project.
+
+Please have a look at [this](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2656.12373) paper. It explains the relationship between air temperature, butterfly emergence, and plant flowering.
+
+
+##  Phenology 
+
+Phenology is the study of when events happen in organisms' life cycles. For example, the first flowering of a plant for the year, or the emergence of forager bees. Typically, organisms take cues from their environment. Commonly, these are changes such as photoperiod (how much light there is per day) or temperature. 
+
+When organisms that rely on one another fall out of sync, it can be a problem. For example, if a plant starts to flower when the soil is warm enough, this will often occur after a period of warmer air temperatures because soil has a higher heat capacity than air. What happens to the bees when they emerge and don't find any food? This is called *ecological mismatch*. Originally described in 2004 by Winder and Schindler, ecological mismatch can mean that one or both species don't have their needs met by the environment. 
+
+What we're going to do today is look at some historical and present-day ecological data. What were the temperatures historically? And when did butterflies erupt from their cocoons? Butterflies need to be warm to incubate, exit the coccoon and go into flight. 
+
+Before trying the test, make sure you've read the Kharouba and Vellend paper and understand the hypotheses they were testing.
+
+# Project Two
+
+## Part One. 55 points.
+
+```{r}
+download.file(url = "https://raw.githubusercontent.com/Paleantology/GBIO153H/master/data/Butterfly_data.csv", destfile = "data/Butterfly_data.csv")
+download.file(url = "https://raw.githubusercontent.com/Paleantology/GBIO153H/master/data/Phenology_data.csv", destfile = "data/Phenology_data.csv")
+```
+
+## Next, let's read in both the butterfly and phenology datasets. 5 pts.
+
+```{r}
+# Code
+```
+
+
+1) How many unique species of butterly are in the dataset? (5pts)
+
+
+```{r, eval=FALSE}
+
+```
+
+2) Check out the relationship between temperature and time. First, let's plot it. Choose an approriate plot type, and plot the year vs. temperature. (5 pts)
+```{r, eval = FALSE}
+# Code
+```
+
+
+3. It looks like there might be a relationship between these two things. We'll check this with a *linear regression*. Use `stat_smooth` to add a regression to the plot. (5 pts)
+
+
+```{r, eval = FALSE}
+#Code
+```
+
+## Let's take a look at the actual butterflies.
+
+4) If butterflies emerge based on temperature, what would we expect to be the relationship between Spring temperature and day of emergence? Summer temperature and day of emergence? Year and day? Test all three out below. Which predictor (day, spring temp, summer temp) you think is most relevant? (10 points)
+
+```{r, eval=FALSE}
+#Code
+```
+
+5) Is there a significant linear relationship between any predictors and the response? (10 pts)
+
+```{r}
+# code here
+```
+
+```
+#Answer here
+```
+
+6) It looks like different animals might have different relationships to the predictor variables. Try plotting them out as a facets (5 pts).
+
+
+```{r, eval=FALSE}
+#Code
+```
+
+7) Join our two datasets together and remake the facet plot above. Does this change your opinion of the relatedness of variables? (5 pts)
+
+
+```{r}
+#Code
+```
+
+8) Wrap up: What is the relationship between temperature (remember that we looked at 3 kinds of temperature) and day of emergence? Is it the same for all species? How does this relate back to Kharouba and Vellend's hypotheses? (10 pts)
+
+
+```{r}
+#Answer here.
+```
+
+# Part Two. 30 points.
+
+For each of your function files, add to the .R:
+
++ Expected function inputs. For example, if you will be plotting a histogram, do you want a data frame as input? A dataframe and the name of the column you want to plot? 
++ Expected outputs. Will your function return a plot? A single number? A vector of numbers? 
+
+# Part Three. 15 points
+
+Add, commit, and push this file to your R_Package_LastName GitHub repo. Place this file in vignettes. Place the data in data/.

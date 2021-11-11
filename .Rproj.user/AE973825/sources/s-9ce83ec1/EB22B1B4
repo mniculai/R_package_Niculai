@@ -1,0 +1,24 @@
+{
+    "id": "EB22B1B4",
+    "path": "/cloud/project/vignettes/project_two.Rmd",
+    "project_path": "vignettes/project_two.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1636656487569.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636656383,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636656383,
+    "read_only": false,
+    "read_only_alternatives": []
+}
