@@ -1,0 +1,4 @@
+"0","ggplot(data = butterfly_data, mapping = aes(x = Day, y = Year)) +"
+"0","    geom_point(aes(color = ButterflySpecies))+ stat_smooth() +ylim(1931,2020) +xlim(100, 250)"
+"2","`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+"

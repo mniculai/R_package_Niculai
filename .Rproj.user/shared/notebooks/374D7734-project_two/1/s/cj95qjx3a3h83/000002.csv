@@ -1,0 +1,8 @@
+"0","butterfly_species_count <- butterfly_data%>%"
+"0","  count(SummerTemp, ButterflySpecies)"
+"0","ggplot(data = butterfly_species_count, mapping = aes(x = SummerTemp, y = n)) +"
+"0","    geom_line() +"
+"0","    facet_wrap(facets = vars(ButterflySpecies))"
+"2","geom_path: Each group consists of only one observation.
+Do you need to adjust the group aesthetic?
+"
