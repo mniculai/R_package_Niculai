@@ -1,0 +1,47 @@
+---
+title: "Niculai R Package"
+author: "Maxim Niculai"
+date: "12/2/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installation
+
+load in common libraries used by this package. 
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(pkgdown)
+```
+
+you might need to install some genomics R Packages for this package to run.
+
+now, we install my R package
+```{r}
+devtools::install_github("mniculai/R_package_Niculai")
+```
+
+Let us downlaod some data for our package: 
+
+```{r}
+#download.file()
+
+
+```
+
+
+## Working Example 
+
++ An example of each function and how it works in each function chunk 
++ Say something about why this is a good thing to do 
++ Say something about expected outcome 
+
+
+
