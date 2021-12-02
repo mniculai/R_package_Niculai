@@ -8,7 +8,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+#knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Installation
@@ -16,16 +16,16 @@ knitr::opts_chunk$set(echo = TRUE)
 load in common libraries used by this package. 
 
 ```{r}
-library(ggplot2)
-library(tidyverse)
-library(pkgdown)
+#library(ggplot2)
+#library(tidyverse)
+#library(pkgdown)
 ```
 
 you might need to install some genomics R Packages for this package to run.
 
 now, we install my R package
 ```{r}
-devtools::install_github("mniculai/R_package_Niculai")
+#devtools::install_github("mniculai/R_package_Niculai")
 ```
 
 Let us downlaod some data for our package: 
@@ -39,9 +39,9 @@ Let us downlaod some data for our package:
 
 ## Working Example 
 
-+ An example of each function and how it works in each function chunk 
-+ Say something about why this is a good thing to do 
-+ Say something about expected outcome 
+#+ An example of each function and how it works in each function chunk 
+#+ Say something about why this is a good thing to do 
+#+ Say something about expected outcome 
 
 
 
