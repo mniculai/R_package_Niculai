@@ -3,7 +3,12 @@
 #These variables where chosen because i wanted to visualize the total size in length between groups based on color to see 
 #which color had larger length sizes and the variance in length. 
 
-
+#'
+#'@param . is a piped crabs_data.csv file
+#'@param color is a color column in crabs_data.csv
+#'@param carapace_length is a carapace_length column in crabs_data.csv
+#'@return Returns a box plot model of crabs grouped by color and dispersed by length measurments. 
+#' 
 
 boxplot_length <- function(.,color,carapace_length){
   if(!is.data.frame(crabs_data)){

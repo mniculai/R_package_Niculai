@@ -1,6 +1,14 @@
 # This file would contain the linear model for linear regression looking at the relationship between two variables 
 # the inputs would be the linear regression between carapace_length and body depth to plot the visual model and obtain data on relationship. 
-#output would be a visual plot of the relationship as well as a summary table of the data to determine relationship with residuals & coefficients.  
+
+#'
+#'@param . is a piped crabs_data.csv file with carapace_length and body_depth selected and grouped
+#'@param carapace_length is data in column from crabs_data.csv
+#'@param hindfoot_length is a hindfoot_length column data from crabs_data.csv
+#'@return Returns a linear regression model of carapace_length and body_depth, with length in
+#'x axis, and depth in y axis
+#'
+
 
 
 crab_regression <- function(.,carapace_length, body_depth){
