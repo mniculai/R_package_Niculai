@@ -2,3 +2,7 @@
 #The expected outcome would be a box plot of two box and whisker plots with blue and orange colors being in the data set.
 #These variables where chosen because i wanted to visualize the total size in length between groups based on color to see 
 #which color had larger lenth sizes and the variance in length. 
+
+```{r, eval = FALSE}
+ggplot(data = crabs_data, mapping = aes(x = color, y = carapace_length)) + geom_boxplot(alpha = 0) + geom_jitter(alpha = 0.3, color = "tomato")
+```
