@@ -21,9 +21,9 @@ plot <- ggplot(data = crabs_data, mapping = aes(x = color, y = carapace_length))
 return(plot)
 }
 
-crabs_data%>%
-  select(color,carapace_length)%>%
-  boxplot_length(color = color, carapace_length = carapace_length)
+#crabs_data%>%
+#  select(color,carapace_length)%>%
+ # boxplot_length(color = color, carapace_length = carapace_length)
 
 
 

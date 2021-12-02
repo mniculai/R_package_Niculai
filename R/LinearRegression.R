@@ -24,6 +24,6 @@ plot_regression <- ggplot(., aes(x = carapace_length, y = body_depth)) + geom_po
 return(plot_regression)
 }
 
-crabs_data%>%
-  select(carapace_length, body_depth)%>%
-  crab_regression(carapace_length = carapace_length, body_depth = body_depth)
+#crabs_data%>%
+ # select(carapace_length, body_depth)%>%
+  #crab_regression(carapace_length = carapace_length, body_depth = body_depth)
