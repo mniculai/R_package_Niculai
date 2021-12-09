@@ -20,7 +20,3 @@ plot_scatter <- ggplot(data = crabs_data, mapping = aes(x = carapace_length, y =
 
 return(plot_scatter)
 }
-
-crabs_data%>%
-select(carapace_length, carapace_width)%>%
-crab_plot(carapace_length = carapace_length, carapace_width = carapace_width)
