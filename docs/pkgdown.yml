@@ -1,7 +1,0 @@
-pandoc: 2.14.0.3
-pkgdown: 2.0.0
-pkgdown_sha: ~
-articles:
-  Niculai_R_Package: Niculai_R_Package.html
-last_built: 2021-12-09T17:42Z
-
