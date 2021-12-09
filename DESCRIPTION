@@ -2,7 +2,7 @@ Package: project
 Title: Analysis of Crab Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("Maxim", "Niculai", , "first.last@example.com", role = c("aut", "cre"))
+    person("Maxim", "Niculai", , "maxim.niculai@selu.edu", role = c("aut", "cre"))
 Description: Analyse that data
 License: MIT + file LICENSE
 Encoding: UTF-8

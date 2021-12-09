@@ -5,3 +5,7 @@
 project.Rcheck/
 project*.tar.gz
 project*.tgz
+projects.Rcheck/
+projects*.tar.gz
+projects*.tgz
+docs
