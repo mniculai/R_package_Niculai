@@ -1,5 +1,5 @@
 ---
-title: "Niculai"
+title: "projects"
 author: "Maxim Niculai"
 date: "12/2/2021"
 output:
@@ -27,7 +27,7 @@ you might need to install some genomics R Packages for this package to run.
 now, we install my R package
 ``````{r eval = FALSE}
 devtools::install_github("mniculai/R_package_Niculai")
-library(project)
+
 ```
 
 Let us download some crab data for our package: 
