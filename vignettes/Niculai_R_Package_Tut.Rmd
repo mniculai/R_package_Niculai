@@ -24,13 +24,13 @@ you might need to install some genomics R Packages for this package to run.
 now, we install my R package
 ``````{r eval = FALSE}
 devtools::install_github("mniculai/R_package_Niculai")
-library(projects)
+library(project)
 ```
 
 Let us download some crab data for our package: 
 
-```{r}
-download.file(url = "https://raw.githubusercontent.com/mniculai/R_package_Niculai/vignettes/Data/crabs_data.csv", destfile = "data/crabs_data.csv")
+```{r eval = FALSE}
+download.file(url = "https://raw.githubusercontent.com/mniculai/R_package_Niculai/master/vignettes/Data/crabs_data.csv", destfile = "/cloud/project/data/crabs_data.csv")
 
 ```
 
