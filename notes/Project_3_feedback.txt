@@ -1,0 +1,7 @@
+Project Three: 
+  
+  Functions mostly work, but one of the requirements of the project was a function
+    for data cleaning. This is not present.
+  Documents and tests are good.
+  3 Days late with no request for an extention.
+  
