@@ -1,0 +1,10 @@
+Package: projects
+Title: Analysis of Crab Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maxim", "Niculai", , "maxim.niculai@selu.edu", role = c("aut", "cre"))
+Description: Analyse that data
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
