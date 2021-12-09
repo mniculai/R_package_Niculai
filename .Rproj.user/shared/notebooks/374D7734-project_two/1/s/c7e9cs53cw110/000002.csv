@@ -1,5 +1,0 @@
-"0","ggplot(data = Phenology_data, mapping = aes(x = AnnualTemp, y = Year)) +"
-"0","    geom_line()+"
-"0","  stat_smooth()"
-"2","`geom_smooth()` using method = 'loess' and formula 'y ~ x'
-"
